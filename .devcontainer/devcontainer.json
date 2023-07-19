@@ -1,0 +1,22 @@
+// More info: https://containers.dev/implementors/json_reference/
+{
+   "build": {
+		"dockerfile": "../docker/dev/rockylinux8/Dockerfile",
+		"context": ".."
+	},
+	"remoteUser": "root",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+				"ms-python.autopep8",
+				"GitHub.vscode-pull-request-github",
+				"eamodio.gitlens",
+				"ms-python.vscode-pylance",
+				"ms-python.python",
+				"hbenl.vscode-test-explorer",
+				"redhat.vscode-yaml",
+				"ms-vscode.atom-keybindings"
+			]
+        }
+    },
+}
